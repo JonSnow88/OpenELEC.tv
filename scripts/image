@@ -58,6 +58,8 @@ else
   fi
 fi
 
+IMAGE_NAME="$DISTRONAME-$TARGET_VERSION"
+
 if [ "$PROJECT" == "imx6" -a -n "$SYSTEM" ]; then
   IMAGE_NAME="$IMAGE_NAME-$SYSTEM"
 fi
