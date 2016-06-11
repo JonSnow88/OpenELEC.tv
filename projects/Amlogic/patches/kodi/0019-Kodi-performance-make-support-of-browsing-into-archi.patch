@@ -11,10 +11,10 @@ Subject: [PATCH 19/28] Kodi: performance - make support of browsing into
  3 files changed, 19 insertions(+)
 
 diff --git a/addons/resource.language.en_gb/resources/strings.po b/addons/resource.language.en_gb/resources/strings.po
-index da46394..f0d9116 100644
+index 8b20a3d..8c27845 100644
 --- a/addons/resource.language.en_gb/resources/strings.po
 +++ b/addons/resource.language.en_gb/resources/strings.po
-@@ -18137,6 +18137,16 @@ msgctxt "#38023"
+@@ -18171,6 +18171,16 @@ msgctxt "#38023"
  msgid "Set my rating"
  msgstr ""
  
@@ -28,11 +28,11 @@ index da46394..f0d9116 100644
 +msgid "Allow viewing and playing files in archives (e.g. zip, rar)"
 +msgstr ""
 +
- msgctxt "#39000"
- msgid "720p and up"
- msgstr ""
+ #: system/peripherals.xml
+ msgctxt "#38050"
+ msgid "Remote button press delay before repeating (ms)"
 diff --git a/system/settings/settings.xml b/system/settings/settings.xml
-index a267dee..e11269e 100644
+index 1e899eb..9fb2f91 100644
 --- a/system/settings/settings.xml
 +++ b/system/settings/settings.xml
 @@ -317,6 +317,11 @@
